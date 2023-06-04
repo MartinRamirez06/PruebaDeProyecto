@@ -38,7 +38,7 @@ public class VentanaAnimal extends JFrame {
         lblNombre=new JLabel("Nombre Casual:");
         lblNombreCientifico=new JLabel("Nombre Cientifico:");
         lblTipoDeDieta=new JLabel("Tipo de Dieta:");
-        lblTamaDeEspecie=new JLabel("Altura de la especie:");
+        lblTamaDeEspecie=new JLabel("Altura de la especie en metros:");
         lblLinkImagen=new JLabel("Link de Imagen:");
         txtId=new JTextField(3);
         txtId.setText("0");

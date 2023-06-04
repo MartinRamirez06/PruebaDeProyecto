@@ -11,7 +11,7 @@ public class conexionSingleton {
     private conexionSingleton(String database){
         this.baseDatos=database;
         try{
-            conection= DriverManager.getConnection("jdbc:sqlite:FaunaMarina.db");
+            conection= DriverManager.getConnection("jdbc:sqlite:Fauna_Marina.db");
         }catch (SQLException sqle){
             sqle.printStackTrace();
         }catch (Exception e){
